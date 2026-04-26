@@ -2925,7 +2925,6 @@
     },
     "de.schmidhuberj.tubefeeder": {
         "*": {
-            "finish-args-flatpak-spawn-access": "Spawn arbitrary video player",
             "finish-args-unnecessary-xdg-data-tubefeeder-create-access": "the app predates this linter rule"
         }
     },
@@ -5417,11 +5416,6 @@
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
-    "net.longturn.freeciv21": {
-        "stable": {
-            "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
     "net.lockbook.Lockbook": {
         "stable": {
             "flathub-json-automerge-enabled": "QA is performed upstream prior to a GH release automation."
@@ -5835,11 +5829,6 @@
         }
     },
     "org.blender.Blender": {
-        "stable": {
-            "finish-args-host-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "org.bluej.BlueJ": {
         "stable": {
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
@@ -7460,7 +7449,6 @@
     },
     "org.kde.krename": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
@@ -8566,11 +8554,6 @@
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
-    "org.zdoom.UZDoom": {
-        "*": {
-            "finish-args-flatpak-appdata-folder-access": "UZDoom can automatically detect required data for supported games from Steam installations"
-        }
-    },
     "org.zim_wiki.Zim": {
         "stable": {
             "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
@@ -8985,11 +8968,6 @@
         "stable": {
             "finish-args-home-filesystem-access": "OrcaSlicer needs persistent access to model files, recent projects, and G-code export across arbitrary user directories",
             "finish-args-flatpak-appdata-folder-access": "Read-only access to legacy config/cache directory (~/.var/app/io.github.orcaslicer.OrcaSlicer) for migration from old app-id"
-        }
-    },
-    "org.cvfosammmm.Lemma": {
-        "stable": {
-            "finish-args-home-filesystem-access": "Required importing markdown files with images and attachments, only the main file can be accessed through the portal."
         }
     }
 }
