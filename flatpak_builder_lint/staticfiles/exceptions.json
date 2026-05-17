@@ -199,7 +199,6 @@
     },
     "ca.parallel_launcher.ParallelLauncher": {
         "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule",
             "finish-args-login1-talk-name": "Predates the linter rule"
         }
@@ -454,7 +453,6 @@
     },
     "com.bladecoder.adventure-editor": {
         "*": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
@@ -739,7 +737,6 @@
     },
     "com.github.Flacon": {
         "stable": {
-            "appid-code-hosting-too-few-components": "app-id predates this linter rule",
             "appid-uses-code-hosting-domain": "app-id predates this linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
@@ -1361,8 +1358,7 @@
     },
     "com.github.naaando.lyrics": {
         "stable": {
-            "appid-uses-code-hosting-domain": "app-id predates this linter rule",
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
+            "appid-uses-code-hosting-domain": "app-id predates this linter rule"
         }
     },
     "com.github.neithern.g4music": {
@@ -1751,8 +1747,7 @@
     },
     "com.gitlab.coringao.JAG": {
         "stable": {
-            "appid-uses-code-hosting-domain": "app-id predates this linter rule",
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
+            "appid-uses-code-hosting-domain": "app-id predates this linter rule"
         }
     },
     "com.gitlab.coringao.cavestory-nx": {
@@ -2748,7 +2743,6 @@
     },
     "com.wings3d.WINGS": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
@@ -2925,7 +2919,6 @@
     },
     "de.schmidhuberj.tubefeeder": {
         "*": {
-            "finish-args-flatpak-spawn-access": "Spawn arbitrary video player",
             "finish-args-unnecessary-xdg-data-tubefeeder-create-access": "the app predates this linter rule"
         }
     },
@@ -3749,12 +3742,6 @@
     "io.github.bothlab.pomidaq": {
         "stable": {
             "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "io.github.brunoherbelin.Vimix": {
-        "stable": {
-            "finish-args-host-filesystem-access": "Predates the linter rule",
-            "finish-args-host-tmp-access": "Predates the linter rule"
         }
     },
     "io.github.cboxdoerfer.FSearch": {
@@ -5029,7 +5016,6 @@
     },
     "io.mgba.mGBA": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
@@ -5417,11 +5403,6 @@
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
-    "net.longturn.freeciv21": {
-        "stable": {
-            "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
     "net.lockbook.Lockbook": {
         "stable": {
             "flathub-json-automerge-enabled": "QA is performed upstream prior to a GH release automation."
@@ -5487,7 +5468,6 @@
     },
     "net.meshlab.MeshLab": {
         "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule",
             "finish-args-host-tmp-access": "Predates the linter rule"
         }
@@ -5687,7 +5667,6 @@
     },
     "net.werwolv.ImHex": {
         "stable": {
-            "finish-args-host-filesystem-access": "Predates the linter rule",
             "flathub-json-automerge-enabled": "Predates the linter rule"
         }
     },
@@ -5835,11 +5814,6 @@
         }
     },
     "org.blender.Blender": {
-        "stable": {
-            "finish-args-host-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "org.bluej.BlueJ": {
         "stable": {
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
@@ -7130,11 +7104,6 @@
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
-    "org.kde.kamoso": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
     "org.kde.kanagram": {
         "stable": {
             "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
@@ -7460,7 +7429,6 @@
     },
     "org.kde.krename": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
@@ -8083,11 +8051,6 @@
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
-    "org.plomgrading.PlomClient": {
-        "*": {
-            "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
     "org.polymc.PolyMC": {
         "*": {
             "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
@@ -8564,11 +8527,6 @@
     "org.zaproxy.ZAP": {
         "stable": {
             "finish-args-host-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "org.zdoom.UZDoom": {
-        "*": {
-            "finish-args-flatpak-appdata-folder-access": "UZDoom can automatically detect required data for supported games from Steam installations"
         }
     },
     "org.zim_wiki.Zim": {
