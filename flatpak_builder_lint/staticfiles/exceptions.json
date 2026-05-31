@@ -179,8 +179,6 @@
     },
     "ca._0ldsk00l.Nestopia": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-home-ro-filesystem-access": "Predates the linter rule"
         }
     },
@@ -199,7 +197,6 @@
     },
     "ca.parallel_launcher.ParallelLauncher": {
         "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule",
             "finish-args-login1-talk-name": "Predates the linter rule"
         }
@@ -454,7 +451,6 @@
     },
     "com.bladecoder.adventure-editor": {
         "*": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
@@ -535,7 +531,6 @@
     },
     "com.core447.StreamController": {
         "stable": {
-            "finish-args-flatpak-appdata-folder-access": "required to allow the app to show the mpris artworks of media playing in other Flatpaks, e.g. Firefox",
             "finish-args-flatpak-spawn-access": "required to allow plugins to open apps on the host",
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
@@ -739,7 +734,6 @@
     },
     "com.github.Flacon": {
         "stable": {
-            "appid-code-hosting-too-few-components": "app-id predates this linter rule",
             "appid-uses-code-hosting-domain": "app-id predates this linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
@@ -1361,8 +1355,7 @@
     },
     "com.github.naaando.lyrics": {
         "stable": {
-            "appid-uses-code-hosting-domain": "app-id predates this linter rule",
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
+            "appid-uses-code-hosting-domain": "app-id predates this linter rule"
         }
     },
     "com.github.neithern.g4music": {
@@ -1751,8 +1744,7 @@
     },
     "com.gitlab.coringao.JAG": {
         "stable": {
-            "appid-uses-code-hosting-domain": "app-id predates this linter rule",
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
+            "appid-uses-code-hosting-domain": "app-id predates this linter rule"
         }
     },
     "com.gitlab.coringao.cavestory-nx": {
@@ -1908,11 +1900,6 @@
     "com.interversehq.qView": {
         "stable": {
             "finish-args-host-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "com.itextpdf.RUPS": {
-        "stable": {
-            "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
     "com.jagex.RuneScape": {
@@ -2315,8 +2302,6 @@
     },
     "com.prusa3d.PrusaSlicer": {
         "*": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
-            "finish-args-flatpak-spawn-access": "the app predates this linter rule",
             "finish-args-freedesktop-dbus-talk-name": "Predates the linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule",
             "finish-args-own-name-wildcard-com.prusa3d.prusaslicer": "Predates the linter rule"
@@ -2539,11 +2524,6 @@
             "finish-args-unnecessary-xdg-config-TeamSpeak-rw-access": "TeamSpeak 6 plugins installation directory."
         }
     },
-    "com.teeworlds.Teeworlds": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
     "com.tencent.WeChat": {
         "stable": {
             "finish-args-own-name-wildcard-org.kde": "Still uses legacy StatusNotifier implementation"
@@ -2748,7 +2728,6 @@
     },
     "com.wings3d.WINGS": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
@@ -2925,7 +2904,6 @@
     },
     "de.schmidhuberj.tubefeeder": {
         "*": {
-            "finish-args-flatpak-spawn-access": "Spawn arbitrary video player",
             "finish-args-unnecessary-xdg-data-tubefeeder-create-access": "the app predates this linter rule"
         }
     },
@@ -3749,12 +3727,6 @@
     "io.github.bothlab.pomidaq": {
         "stable": {
             "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "io.github.brunoherbelin.Vimix": {
-        "stable": {
-            "finish-args-host-filesystem-access": "Predates the linter rule",
-            "finish-args-host-tmp-access": "Predates the linter rule"
         }
     },
     "io.github.cboxdoerfer.FSearch": {
@@ -5029,7 +5001,6 @@
     },
     "io.mgba.mGBA": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
@@ -5186,11 +5157,6 @@
     "it.unibo.tuprolog.ide": {
         "stable": {
             "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "jp.yvt.OpenSpades": {
-        "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
         }
     },
     "la.ogri.strongbox": {
@@ -5397,11 +5363,6 @@
             "finish-args-not-defined": "Is a command line application"
         }
     },
-    "net.jami.Jami": {
-        "*": {
-            "finish-args-login1-system-talk-name": "Predates the linter rule"
-        }
-    },
     "net.jenyay.Outwiker": {
         "*": {
             "finish-args-host-filesystem-access": "Predates the linter rule"
@@ -5413,11 +5374,6 @@
         }
     },
     "net.launchpad.Gnuclad": {
-        "stable": {
-            "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "net.longturn.freeciv21": {
         "stable": {
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
@@ -5487,7 +5443,6 @@
     },
     "net.meshlab.MeshLab": {
         "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule",
             "finish-args-host-tmp-access": "Predates the linter rule"
         }
@@ -5687,7 +5642,6 @@
     },
     "net.werwolv.ImHex": {
         "stable": {
-            "finish-args-host-filesystem-access": "Predates the linter rule",
             "flathub-json-automerge-enabled": "Predates the linter rule"
         }
     },
@@ -5839,11 +5793,6 @@
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
-    "org.bluej.BlueJ": {
-        "stable": {
-            "finish-args-host-filesystem-access": "Predates the linter rule"
-        }
-    },
     "org.bluesabre.MenuLibre": {
         "stable": {
             "finish-args-flatpak-system-folder-access": "Predates the linter rule",
@@ -5911,7 +5860,6 @@
     "org.codeblocks.codeblocks": {
         "*": {
             "finish-args-arbitrary-dbus-access": "IDEs tend to require direct dbus access",
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-has-socket-ssh-auth": "Predates the linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
@@ -7103,7 +7051,6 @@
     },
     "org.kde.index": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
@@ -7128,11 +7075,6 @@
         "stable": {
             "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "org.kde.kamoso": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
     },
     "org.kde.kanagram": {
@@ -7460,7 +7402,6 @@
     },
     "org.kde.krename": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
@@ -8083,11 +8024,6 @@
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
-    "org.plomgrading.PlomClient": {
-        "*": {
-            "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
     "org.polymc.PolyMC": {
         "*": {
             "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
@@ -8164,12 +8100,6 @@
     "org.quelea.Quelea": {
         "*": {
             "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "org.quetoo.Quetoo": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
         }
     },
     "org.qxmledit.QXmlEdit": {
@@ -8434,11 +8364,6 @@
             "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
         }
     },
-    "org.tuxpaint.Tuxpaint": {
-        "*": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
-        }
-    },
     "org.ultimatepp.TheIDE": {
         "stable": {
             "finish-args-flatpak-spawn-access": "required to execute various host binaries, including compiler, debugger, and git within the application",
@@ -8564,11 +8489,6 @@
     "org.zaproxy.ZAP": {
         "stable": {
             "finish-args-host-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "org.zdoom.UZDoom": {
-        "*": {
-            "finish-args-flatpak-appdata-folder-access": "UZDoom can automatically detect required data for supported games from Steam installations"
         }
     },
     "org.zim_wiki.Zim": {
